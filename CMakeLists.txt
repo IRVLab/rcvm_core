@@ -81,11 +81,12 @@ add_service_files(
 #   Action2.action
 # )
 
-## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   geometry_msgs#   sensor_msgs#   std_msgs
-# )
+# Generate added messages and services with any dependencies listed here
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+  geometry_msgs   
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -120,7 +121,7 @@ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES rcvm_core
 #  CATKIN_DEPENDS geometry_msgs message_generation message_runtime rospy sensor_msgs std_msgs
-#  DEPENDS system_lib
+  DEPENDS message_runtime std_msgs geometry_msgs
 )
 
 ###########
