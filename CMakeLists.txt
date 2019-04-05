@@ -69,7 +69,6 @@ add_service_files(
   Lost.srv
   Malfunction.srv
   Negative.srv
-  Possibly.srv
   RepeatLast.srv
   ReportBattery.srv
 )
