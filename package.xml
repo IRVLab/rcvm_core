@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>rcvm_core</name>
-  <version>0.1.0</version>
-  <description>The rcvm_core package contains shared RCVM resources such as service and message definitions.</description>
+  <version>1.0.0</version>
+  <description>The rcvm_core package contains shared resources for the Robot Communication Via Motion (RCVM) systems, such as service and message definitions.</description>
 
   <maintainer email="fulto081@umn.edu">Michael Fulton</maintainer>
 
   <license>MIT</license>
 
-  <url type="website">https://github.umn.edu/fulto081/rcvm_core</url>
+  <url type="website">https://github.umn.edu/fultonms/rcvm_core</url>
 
   <author email="fulto081@umn.edu">Michael Fulton</author>
 
